@@ -1,10 +1,89 @@
-.section p{
+.top{
+  width: 100%;
+  background-color:  #f1dacc;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.top hr {
+  border-top: 4px solid;
+  width: 25%;
+}
+
+.top h1{
+  letter-spacing: 20px;
+  font-size: 300%
+}
+
+img {
+  position: absolute;
+  width: 200px;
+  left: 80px;
+  top: -25px;
+}
+.experience{
+  margin-bottom: 25px;
+}
+.section-header{
+  background-color: #595959;
+  color: #f1dacc;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.left h4{
+  margin: 0px;
+  font-weight: bold;
+}
+
+.left .section {
+  margin-bottom: 20px;
+}
+
+.left .section p{
   margin: 5px;
   font-weight: bold;
 }
 
-.profile p{
+.left .profile p{
   font-weight: normal;
   font-style: italic;
   text-align: justify;
+}
+
+.right .experience h4{
+  text-align: center;
+  font-weight: bold;
+}
+
+.right .experience h5{
+  text-align: center;
+  font-style: italic;
+}
+
+.right .experience p{
+  text-align: justify;
+}
+
+.education h4 {
+  font-weight: bold;
+}
+
+.education h5 {
+  font-style: italic;
+}
+
+.progress{
+  border: 2px solid #595959;
+  margin-top: 5px;
+  margin-bottom: 7px !important;
+  border-radius: 0px !important;
+  height: 12px !important;
+}
+
+.progress-bar{
+  background-color: #f1dacc !important;
+  margin-left: -15px;
 }
