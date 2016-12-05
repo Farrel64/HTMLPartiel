@@ -1,0 +1,10 @@
+.section p{
+  margin: 5px;
+  font-weight: bold;
+}
+
+.profile p{
+  font-weight: normal;
+  font-style: italic;
+  text-align: justify;
+}
